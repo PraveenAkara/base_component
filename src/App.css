@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.login_page{
+  background:#faebd76b;
+  height: 100vh;
+}
+
+.login_page .ant-input {
+padding: 10px 11px;
+}
+
+.login_page .ant-input-affix-wrapper >input.ant-input {
+padding: 6px 11px;
+
+}
+.login_page .ant-btn-primary {
+  color: #1f1d1d;
+  background-color: #679ae1;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+}
+.login_page .ant-btn-primary:not(:disabled):hover {
+  color: #fff;
+  background-color: #0956b4;
+}
+.login_page .ant-btn {
+  font-size: 14px;
+  height: 40px;
+  padding: 4px 15px;
+  border-radius: 6px;
+}
+.login_page .ant-btn-link:not(:disabled):hover {
+  color: #000000;
+  border: 2px solid white;
+  background: #679ae1;
+}
+
+.header{
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a:-webkit-any-link {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.ant-table-wrapper .ant-table-thead >tr>th, .ant-table-wrapper .ant-table-thead >tr>td {
+  position: relative;
+  color: rgb(255 255 255 / 88%);
+  font-weight: 600;
+  text-align: start;
+  padding: 15px 10px;
+  background: #344ece;
+  border-bottom: 1px solid #f0f0f0;
+}
+.ant-table-wrapper .ant-table-tbody>tr>td, :where(.css-dev-only-do-not-override-w8mnev).ant-table-wrapper tfoot>tr>th, :where(.css-dev-only-do-not-override-w8mnev).ant-table-wrapper tfoot>tr>td {
+  position: relative;
+  padding: 6px 16px;
+  overflow-wrap: break-word;
+}
+.ant-table-wrapper .ant-table-tbody >tr >td {
+  transition: 0.2s,border-color 0.2s;
+  border: 1px solid #ebeaea;
+}
+#BarChart { 
+  display: flex; 
+  flex-direction: row; /* Arrange the Bars Horizontally using FlexBox  */
+  align-items: flex-end; /* Have the bars start at the bottom and go up */
+  justify-content: center; /* Center the bars in the middle of the screen */
+  margin: 50px;
+}
+
+.bar {
+  background-color: #3aa70f; /* Have each bar be a nice green */
+  width: 10px; /* The animation will start with each bar being 10px wide, and then expand outwards */
+}
+#LineChart {
+  overflow: visible /* Just in case the axis render outside of our div, let's make sure it still displays */
+}
+
+/* .tooltip-area:hover .tooltip-area__text {
+  visibility:visible;
+}
+
+.tooltip-area .tooltip-area__text {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip-area {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+} */
+
+/* .tooltip{
+  display: none;
+} */
+.loader{
+  background: #040404;
+  height: 100vh;
+  opacity: 0.8;
+}
+.ant-table-cell{
+  
+}
